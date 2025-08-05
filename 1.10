@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!--
+   No idea what I'm doing coding challenge
+   
+   Author:Brandon Swart
+   Date:08/04/2025
+   Filename: 1.10
+   -->
+
+   <meta charset="utf-8">
+   <meta name="keywords" content="CSS, JavaScript, BeginnerGuide">
+   <meta name="Author" content="Brandon Swart>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coding Challenge 1.10</title>
+   
+
+</head>
+<body>
+
+<h1>Welcome to my first Page</h1>
+<nav>
+   <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+   </ul>
+</nav>
+
+<section id="about">
+   <h2>About Us</h2>
+   <p>This section shares my Journey as a beginner.</p>
+</section>
+
+<section id="services">
+   <h2>Services</h2>
+   <p>Here's what is offered to help all beginners succeed.</p>
+</section>
+
+<section id="contact">
+   <h2>Contact Us</h2>
+   <p>Reach out with any questions or suggestions</p>
+</section>
+
+<footer>
+   <p>&copy; 2025 Brandon Swart. All Rights being learned.</p>
+</footer>
+
+</body>
+</html>
