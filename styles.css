@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #115cac;
+  background-color: white;
   color: white;
   cursor: pointer;
 }
@@ -44,8 +44,8 @@ nav ul li a:hover {
 footer {
   text-align: center;
   font-size: 12px;
-  color: rgb(168, 110, 2);
-  background-color: rgb(64, 139, 226);
+  font-color: rgb(255, 255, 255);
+  background-color: RGB(64, 64, 64);
   padding: 10px;
 }
 
