@@ -1,6 +1,5 @@
 body {
-    text-align: center;
-    background-color: rgb(209, 134, 209)
+    background-color: rgb(145, 140, 145)
     font-color: rgb(185, 184, 184)
     font-family- Arial;
     margin-left: auto;
@@ -42,5 +41,5 @@ footer{
     align-text: center;
     font-size: 12px;
     font-color: rgb(168, 110, 2);
-    background-color: rgb(64,139, 226);
+    background-color: rgb(64, 139, 226)
 }
