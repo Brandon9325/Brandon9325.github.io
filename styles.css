@@ -1,6 +1,6 @@
 body {
   background-color: rgb(145, 140, 145);
-  color: rgb(185, 184, 184);
+  color: rgb(77, 77, 77);
   font-family: Arial, sans-serif;
   max-width: 960px;
   margin-left: auto;
@@ -15,7 +15,7 @@ header {
   font-size: 20px;
   font-weight: bold;
   padding: 25px 50px 100px;
-  background-color: RGB(217, 217, 217);
+  background-color: rgb(145, 145, 145);
   margin: 0;
 }
 
