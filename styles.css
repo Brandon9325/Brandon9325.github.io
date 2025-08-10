@@ -15,11 +15,11 @@ header {
   font-size: 20px;
   font-weight: bold;
   padding: 25px 50px 100px;
-  background-color: aqua;
+  background-color: RGB(0, 255, 255);
 }
 
 nav ul {
-  background-color: white;
+  background-color: RGB(0, 0, 0);
   list-style-type: none;
   padding: 0;
   margin: 0;
