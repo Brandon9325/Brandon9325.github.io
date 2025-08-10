@@ -16,20 +16,25 @@ header {
   font-weight: bold;
   padding: 25px 50px 100px;
   background-color: RGB(0, 255, 255);
+  margin: 0;
 }
 
+nav {
+  background-color: rbb(0, 0, 0);
+}
 nav ul {
-  background-color: RGB(0, 0, 0);
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  font-color: black;
+  font-weight: bold;
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
