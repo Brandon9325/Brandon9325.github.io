@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: white;
-  color: white;
+  background-color: blue;
+  font-color: black;
   cursor: pointer;
 }
 
