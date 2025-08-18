@@ -3,8 +3,7 @@ body {
   color: rgb(77, 77, 77);
   font-family: Arial, sans-serif;
   max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-left: 1px solid rgb(51, 51, 51);
   border-right: 1px solid rgb(51, 51, 51);
   box-shadow: 15px 0px 25px rgb(51, 51, 51), -15px 0px 25px rgb(51, 51, 51);
@@ -25,11 +24,11 @@ nav {
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   padding: 0;
   margin: 0;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
 }
 
 nav ul li a {
@@ -43,7 +42,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: rgb(70, 70, 70);
-  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -80,10 +78,6 @@ section:hover {
   text-align: left;
   font-size: 1.5em;
   margin-bottom: 10px;
-}
-
-colgroup col:first-child, colgroup col:last-child {
-  background-color: #f0f0f0;
 }
 
 footer {
