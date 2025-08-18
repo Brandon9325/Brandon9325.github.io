@@ -1,52 +1,134 @@
 <!doctype html>
 <html lang="en">
 <head>
-   <!--
-   No idea what I'm doing coding challenge
-   
-   Author:Brandon Swart
-   Date:08/04/2025
-   Filename: 1.10
-   -->
-
    <meta charset="utf-8">
    <meta name="keywords" content="CSS, JavaScript, BeginnerGuide">
    <meta name="Author" content="Brandon Swart">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Coding Challenge</title>
    <link rel="stylesheet" href="styles.css"/>
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+      }
 
+      header, nav, section, footer {
+         padding: 20px;
+      }
+
+      nav ul {
+         list-style-type: none;
+         padding: 0;
+      }
+
+      nav ul li {
+         display: inline;
+         margin-right: 15px;
+      }
+
+      nav ul li a {
+         text-decoration: none;
+         color: #333;
+      }
+
+      #projects table {
+         width: 100%;
+         border-collapse: collapse;
+         border: 2px solid gray;
+      }
+
+      #projects th, #projects td {
+         border: 1px solid gray;
+         padding: 10px;
+         text-align: left;
+         vertical-align: top;
+      }
+
+      #projects thead {
+         background-color: aqua;
+      }
+
+      #projects caption {
+         caption-side: top;
+         text-align: left;
+         font-size: 1.5em;
+         margin-bottom: 10px;
+      }
+
+      colgroup col:first-child, colgroup col:last-child {
+         background-color: #f0f0f0;
+      }
+   </style>
 </head>
 <body>
    <header>
-<h1>Welcome to my first Page</h1>
+      <h1>Welcome to my first Page</h1>
    </header>
-<nav>
-   <ul>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-   </ul>
-</nav>
 
-<section id="about">
-   <h2>About Us</h2>
-   <p>This section shares my Journey as a beginner.</p>
-</section>
+   <nav>
+      <ul>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <li><a href="#projects">Projects</a></li>
+      </ul>
+   </nav>
 
-<section id="services">
-   <h2>Services</h2>
-   <p>Here's what is offered to help all beginners succeed.</p>
-</section>
+   <section id="about">
+      <h2>About Us</h2>
+      <p>This section shares my journey as a beginner.</p>
+   </section>
 
-<section id="contact">
-   <h2>Contact Us</h2>
-   <p>Reach out with any questions or suggestions</p>
-</section>
+   <section id="services">
+      <h2>Services</h2>
+      <p>Here's what is offered to help all beginners succeed.</p>
+   </section>
 
-<footer>
-   <p>&copy; 2025 Brandon Swart. All Rights being learned.</p>
-</footer>
+   <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach out with any questions or suggestions.</p>
+   </section>
 
+   <section id="projects">
+      <h2>Sample Projects</h2>
+      <table>
+         <caption>My Sample Projects</caption>
+         <colgroup>
+            <col>
+            <col>
+            <col>
+         </colgroup>
+         <thead>
+            <tr>
+               <th>Project Name</th>
+               <th>Description</th>
+               <th>Image</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Project One</td>
+               <td>This is a description of the first sample project. It showcases my learning progress.</td>
+               <td><img src="placeholder1.png" alt="Project One Image" width="100"></td>
+            </tr>
+            <tr>
+               <td>Project Two</td>
+               <td>This is a description of the second sample project. It highlights my creativity and skills.</td>
+               <td><img src="placeholder2.png" alt="Project Two Image" width="100"></td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+               <td colspan="3">These projects demonstrate my beginner-level coding work.</td>
+            </tr>
+         </tfoot>
+      </table>
+   </section>
+
+   <footer>
+      <p>&copy; 2025 Brandon Swart. All Rights Being Learned.</p>
+   </footer>
 </body>
 </html>
